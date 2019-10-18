@@ -27,7 +27,7 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
 	public GamePlay(GameState state) {
 		this.state = state;
 		mapGen = new MapGenerator(3, 7);
-		mapGen = mapGen.getMap();
+		//mapGen = mapGen.getMap();
 		addKeyListener(this);
 		setFocusable(true);
 		setFocusTraversalKeysEnabled(false);
@@ -35,6 +35,10 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
 		timer.start();
 	}
 	
+	public GamePlay() {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public void paint(Graphics g) {
 		// background

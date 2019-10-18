@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		JFrame obj = new JFrame();
 		GamePlay gamePlay = new GamePlay();
-		obj.setBounds(1, 1, 600, 400);
+		obj.setBounds(1, 1, 700, 500);
 		obj.setTitle("Brick Breaker");
 		obj.setResizable(false);
 		obj.setVisible(true);
